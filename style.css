@@ -1,0 +1,181 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: white;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0,0,0,0.6);
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* NAVIGATION */
+nav {
+    background: rgba(0,0,0,0.85);
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00ffcc;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 10%;
+    min-height: 100vh;
+}
+
+.section-box {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    background: #00c6ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #0072ff;
+}
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+}
+
+iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+}
+
+<style>
+
+/* Whole Website Background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(earth-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* General Section Style */
+section {
+    min-height: 100vh;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Box for content */
+.section-box {
+    padding: 40px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+/* Different Transparent Colors for Each Page */
+
+#home {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#causes {
+    background-color: rgba(139, 0, 0, 0.7);
+}
+
+#difference {
+    background-color: rgba(0, 76, 153, 0.7);
+}
+
+#effects {
+    background-color: rgba(102, 51, 0, 0.7);
+}
+
+#india {
+    background-color: rgba(255, 102, 0, 0.7);
+}
+
+#wildlife {
+    background-color: rgba(0, 102, 51, 0.7);
+}
+
+#facts {
+    background-color: rgba(0, 153, 76, 0.7);
+}
+
+#agreements {
+    background-color: rgba(0, 51, 102, 0.7);
+}
+
+#students {
+    background-color: rgba(153, 0, 153, 0.7);
+}
+
+#solutions {
+    background-color: rgba(0, 128, 128, 0.7);
+}
+
