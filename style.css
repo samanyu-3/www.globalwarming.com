@@ -61,10 +61,14 @@ nav a:hover {
 /* ===== Modern Navigation ===== */
 
 .navbar {
+    width: 85%;              /* 👈 reduce length */
+    margin: 15px auto;       /* 👈 center it */
     display: flex;
     align-items: center;
-    padding: 0px 0px;
+    justify-content: space-between;
+    padding: 8px 20px;
     background: linear-gradient(90deg, #141e30, #243b55);
+    border-radius: 12px;     /* rounded corners */
 }
 
 .logo {
@@ -293,6 +297,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
