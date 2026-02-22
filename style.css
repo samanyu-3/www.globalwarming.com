@@ -86,7 +86,7 @@ nav a:hover {
 .nav-links a {
     text-decoration: none;
     color: white !important;
-    font-size: 20px !important;   /* Force bigger */
+    font-size: 18px !important;   /* Force bigger */
     font-weight: 600;
     padding: 8px 10px;
     transition: 0.3s;
@@ -292,6 +292,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
