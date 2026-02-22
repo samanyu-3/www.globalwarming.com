@@ -77,7 +77,7 @@ nav a:hover {
 
 .nav-links {
     display: flex;
-    gap: 12px;
+    gap: 10px;
     flex: 1;
     justify-content: center;
     white-space: nowrap;
@@ -86,8 +86,9 @@ nav a:hover {
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-size: 13px;
-    padding: 6px 8px;
+    font-size: 16px;   /* increased size */
+    font-weight: 500;
+    padding: 8px 10px;
     transition: 0.3s;
 }
 
@@ -292,6 +293,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
