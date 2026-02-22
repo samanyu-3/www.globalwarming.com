@@ -64,34 +64,26 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 40px;
+    padding: 15px 30px;
     background: linear-gradient(90deg, #141e30, #243b55);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 .logo {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    min-width: 180px;
 }
 
 .nav-links {
     display: flex;
-    gap: 18px;
-    overflow-x: auto;
+    gap: 20px;
     white-space: nowrap;
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    padding: 8px 14px;
-    border-radius: 25px;
-    transition: 0.3s ease;
+    font-size: 13px;
+    padding: 6px 10px;
 }
 
 .nav-links a:hover {
@@ -297,6 +289,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
