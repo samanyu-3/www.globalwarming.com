@@ -63,7 +63,7 @@ nav a:hover {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 12px 20px;
+    padding: 8px 20px;
     background: linear-gradient(90deg, #141e30, #243b55);
 }
 
@@ -293,6 +293,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
