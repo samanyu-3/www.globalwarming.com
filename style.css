@@ -81,7 +81,8 @@ nav a:hover {
 .nav-links {
     display: flex;
     gap: 18px;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .nav-links a {
@@ -296,6 +297,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
