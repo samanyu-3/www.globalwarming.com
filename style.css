@@ -76,17 +76,12 @@ nav a:hover {
     color: white;
     font-size: 20px;
     font-weight: bold;
-    letter-spacing: 1px;
 }
 
 .nav-links {
-    list-style: none;
     display: flex;
     gap: 18px;
-}
-
-.nav-links li {
-    display: inline;
+    flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -301,6 +296,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
