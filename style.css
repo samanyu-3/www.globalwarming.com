@@ -48,6 +48,17 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+nav a {
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #00ffcc;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
 
 /* SECTIONS */
 section {
@@ -181,6 +192,25 @@ section {
 #solutions {
     background-color: rgba(0, 128, 128, 0.7);
 }
+
+.didyouknow {
+    background-color: #002b36;
+    padding: 25px;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,255,204,0.5);
+}
+
+.timeline {
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
 
 
 
