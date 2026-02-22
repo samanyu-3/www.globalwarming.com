@@ -55,7 +55,7 @@ nav a {
 nav a:hover {
     background-color: #00ffcc;
     color: black;
-    padding: 8px 12px;
+    padding: 5px 12px;
     border-radius: 5px;
 }
 /* ===== Modern Navigation ===== */
@@ -293,6 +293,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
