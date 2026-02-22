@@ -193,22 +193,69 @@ section {
     background-color: rgba(0, 128, 128, 0.7);
 }
 
-.didyouknow {
-    background-color: #002b36;
-    padding: 25px;
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.glow {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #00ffcc,
+                 0 0 20px #00ffcc,
+                 0 0 30px #00ffcc;
+}
+
+.image-effect {
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.image-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ffcc;
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
     margin: 40px auto;
     width: 80%;
     border-radius: 15px;
     color: white;
-    box-shadow: 0 0 15px rgba(0,255,204,0.5);
 }
-
-.timeline {
-    background: rgba(255,255,255,0.1);
-    padding: 25px;
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
     margin: 40px auto;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 15px;
+    color: white;
+}
+.button {
+    background: #00ffcc;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: white;
+    transform: scale(1.1);
+}
+.divider {
+    height: 3px;
+    width: 80%;
+    background: #00ffcc;
+    margin: 40px auto;
 }
 
 
