@@ -91,6 +91,7 @@ nav a:hover {
     padding: 8px 10px;
     transition: 0.3s;
 }
+
 .nav-links a:hover {
     color: #00ffff;
 }
@@ -292,6 +293,7 @@ section {
     background: #00ffcc;
     margin: 40px auto;
 }
+
 
 
 
